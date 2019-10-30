@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab|Staatliches&display=swap');
+body {
+  background: url("https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1261&q=80");
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center
+  /*background-color: rgba(245,255,250,0.8);*/
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color:rgba(20,20,20,1.0);
+  line-height: 20px ;
+}
+h1 {
+  color: #1C3144;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
+
+h2{
+  color: #9B7EDE;
+  font-size: 25px;
+  font-family: 'Staatliches', cursive;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  color: #3B5998;
+}
+
+.box-white {
+  width: 40vw;
+  margin: 20px auto;
+  background-color: rgba(250,250,250,1.0);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+#profile_picture {
+    border-radius: 50%;
+    opacity: 1.0;
+}
+
+.list-line {
+  display: inline-flex;
+  list-style: none;
+  letter-spacing: 30px;
+  font-size: 50px;
+}
+
+.button-purple {
+  width: 20px;
+  text-align: center;
+  background: #9B7EDE;
+  color: rgb(250,250,250);
+  line-height: 40px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  font-size: 20;
+}
+
+#fb_icon:hover{
+  color: pink
+}
+#li_icon:hover{
+  color: pink
+}
+#tw_icon:hover{
+  color: pink
+}
+
+.button-purple:hover {
+  background-color: pink
+}
+
+
